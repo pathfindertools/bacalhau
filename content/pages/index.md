@@ -200,5 +200,6 @@ blocks:
 meta:
   pageTitle: Bacalhau
   pageDescription: Reinventing Science through reproducible data pipelines
+  siteImageSrc: ''
 ---
 
