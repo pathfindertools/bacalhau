@@ -2,6 +2,15 @@
 draft: true
 blocks:
   - style:
+      minHeight: min-h-0
+      fullWidth: false
+      padding: pt-10 pb-10 pr-20 pl-20
+    background:
+      fillStyles: bg-black
+    markup: <p class="text-white">I am an embed</p>
+    navigationLabel: Embed
+    _template: embed
+  - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
       featureContent: 'w-1/2 min-h-0 '
       padding: pt-40 pb-16 pr-7 pl-20
@@ -101,102 +110,6 @@ blocks:
         link: 'https://github.com/filecoin-project/microgen'
         type: solid
     _template: banner
-  - style:
-      minHeight: min-h-0
-      fullWidth: false
-      padding: pt-10 pb-10 pr-20 pl-20
-    background:
-      fillStyles: bg-black
-    markup: <p class="text-white">I am an embed</p>
-    navigationLabel: Embed
-    _template: embed
-  - style:
-      textAlignment: text-left
-      minHeight: min-h-0
-      padding: pt-14 pb-20 pr-20 pl-20
-      contentWidth: w-full
-      columns: '2'
-      labelStyles: text-black undefined text-xl mb-0 font-bold
-      headlineStyles: text-white undefined text-6xl mb-10 font-bold
-      subheadStyles: text-black undefined text-3xl mb-0 font-bold
-      textStyles: text-black undefined text-lg mb-0 font-bold
-      contentOrder: labelHeadingsContent
-    cardStyle:
-      fillStyles: bg-primary
-      padding: pt-5 pb-5 pr-5 pl-5
-      type: solid
-      imageStyles: ' undefined undefined mb-0'
-      labelStyles: 'text-white undefined text-sm mb-0 '
-      headlineStyles: 'text-white undefined text-2xl mb-0 '
-      subheadStyles: 'text-white undefined text-lg mb-0 '
-      textStyles: 'text-white undefined undefined mb-0 '
-      buttonType: secondary
-    background:
-      fillStyles: bg-accent1
-    label: ''
-    headline: Made with Microgen
-    subhead: ''
-    body: ''
-    items:
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1652799687/microgen/sustainable-blockchain_dqbwkm.jpg
-        headline: Sustainable Blockchain Summit
-        text: >
-          Two days of talks, workshops and discussions on how we can work
-          together to develop and build greener blockchain solutions.
-        link: 'https://sbs.tech/'
-        buttonLabel: Visit Site
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1652799682/microgen/consensus-factory_g7ol2z.jpg
-        headline: 'Consensus Factory '
-        text: >
-          Consensus is at the heart of decentralised systems, having taken
-          centre stage with the introduction of Nakamoto’s Proof-of-Work (PoW)
-          algorithm.
-        link: 'https://consensus-factory.io/'
-        buttonLabel: Visit Site
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1652799690/microgen/vector-commitment_i0nrao.jpg
-        headline: Vector Commitment Day
-        text: >
-          Vector commitments are powerful primitives that find applications in
-          many blockchains protocols. The goal of this workshop is to survey the
-          state of the art in research.
-        link: 'https://cryptonet.vercel.app/'
-        buttonLabel: Visit Site
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1652799685/microgen/large-data_ulkv86.jpg
-        headline: Filecoin Large Data
-        subhead: ''
-        text: "[Filecoin](https://filecoin.io/)\_is an open Web3 alternative to cloud storage, with better interoperability and larger capacity at a lower cost.\n"
-        link: 'https://largedata.filecoin.io/'
-        buttonLabel: Visit Site
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1649882496/microgen/hackathons_z7pwah_ulntqb.png
-        headline: Hackathons
-        subhead: ''
-        text: >
-          With Filecoin and IPFS, we empower developers and entrepreneurs to
-          solve significant problems and ship innovative applications.
-        link: 'https://hackathons.filecoin.io/'
-        buttonLabel: Visit Site
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1649882497/microgen/asia-season_sn2gv8_bj7ovk.png
-        headline: Asia Hackathon Season
-        subhead: ''
-        text: >
-          Join us on a journey across the universe of Filecoin and IPFS across
-          four distinct hackathon events.
-        link: 'https://hackathons.filecoin.io/asia-hackathon-season.html'
-        buttonLabel: Visit Site
-    navigationLabel: Made with Microgen
-    _template: photoCards
 meta:
   pageTitle: Bacalhau
   pageDescription: Reinventing Science through reproducible data pipelines
