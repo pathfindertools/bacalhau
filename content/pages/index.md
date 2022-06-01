@@ -20,12 +20,13 @@ blocks:
       alt: Illustration of space shuttles
     label: ''
     headline: Bacalhau
-    subhead: A site builder for Web 3.0
-    body: |
-      Make [modern web 3.0](#) ready websites with a real-time visual editor.
+    subhead: Reinventing Science through reproducible data pipelines
+    body: >
+      Transform Big Data processing by giving developers simple, low cost,
+      “Distributed First” tools that unlock a new collaborative ecosystem
     buttons:
       - label: Get Started
-        link: 'https://github.com/pathfindertools/microgen'
+        link: 'https://github.com/filecoin-project/bacalhau'
         type: primary
     _template: feature
   - style:
