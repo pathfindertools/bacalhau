@@ -4,15 +4,15 @@
   "favicon": "https://res.cloudinary.com/protocolai/image/upload/v1649882296/filecoin-favicon_rn3bfm.png",
   "desktopWidth": "1200",
   "colors": {
-    "primary": "#0090FF",
-    "accent1": "#0E4465",
-    "accent2": "#1BBF6E",
-    "accent3": "#2DD0DB",
-    "accent4": "#00D0DB",
+    "primary": "#04206F",
+    "accent1": "#1FC3CD",
+    "accent2": "#CB1923",
+    "accent3": "#FFF9DA",
+    "accent4": "#CCAF14",
     "white": "#FFFFFF",
-    "grayLight": "#E8E8EF",
-    "gray": "#B0B0BF",
-    "grayDark": "#7B7A80",
+    "grayLight": "#FAFAFA",
+    "gray": "#A3A3A3",
+    "grayDark": "#787878",
     "black": "#000000"
   },
   "fonts": {
