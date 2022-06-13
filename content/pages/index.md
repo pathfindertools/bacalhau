@@ -29,6 +29,28 @@ blocks:
         link: '#'
         type: primary
     _template: feature
+  - style:
+      alignment: 'flex-row text-left items-center items-start-vertical '
+      featureContent: 'w-3/4 min-h-0 '
+      padding: pt-14 pb-8 pr-10 pl-20
+      featureImage: 'object-center object-scale-down '
+      imagePadding: pt-14 pb-8 pr-20 pl-10
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: text-primary font-1 text-xl mb-0 font-bold
+      subheadStyles: text-primary font-1 text-base mb-8 font-bold
+      textStyles: 'text-black font-1 text-base mb-0 '
+      contentOrder: labelHeadingsContent
+    background:
+      fillStyles: bg-accent3
+    label: ''
+    headline: Why Bacalhau
+    subhead: Bacalhau seeks to address deep rooted gaps in the research community
+    body: |
+      *   Cost & budget limitations for research departments
+      *   Lack of easy to use tools for collaborative data processing
+      *   Gravity of moving GB+ datasets, e.g. Landsat, Genome
+      *   Challenges in building/collaborate with prior studies
+    _template: feature
 meta:
   pageTitle: Bacalhau
   pageDescription: Reinventing Science through reproducible data pipelines
