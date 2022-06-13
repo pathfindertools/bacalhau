@@ -1,8 +1,8 @@
 {
-  "siteUrl": "microgen.vercel.app",
+  "siteUrl": "bacalhau",
   "gtmId": "",
   "favicon": "https://res.cloudinary.com/protocolai/image/upload/v1649882296/filecoin-favicon_rn3bfm.png",
-  "desktopWidth": "1200",
+  "desktopWidth": "1440",
   "colors": {
     "primary": "#04206F",
     "accent1": "#1FC3CD",
@@ -16,10 +16,10 @@
     "black": "#000000"
   },
   "fonts": {
-    "font1": "Inter:wght@400;700",
-    "font2": "Archivo:wght@400;700",
-    "font3": "Rufina:wght@400;700",
-    "font4": "IBM Plex Mono:wght@400;700"
+    "font1": "Jost:wght@400;700",
+    "font2": "Open Sans:wght@400;700",
+    "font3": "Space Mono:wght@400;700",
+    "font4": "Arial"
   },
   "sizeLeading": {
     "textXs": "12/20",
