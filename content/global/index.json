@@ -36,11 +36,10 @@
     "text8xl": "96/120"
   },
   "buttons": {
-    "primaryFill": "bg-primary",
-    "primaryBorder": "border-accent3 border-r-0",
-    "primaryTypography": "text-white font-2 text-sm mb-0 font-bold",
-    "primaryPadding": "pt-2.5 pb-2.5 pr-6 pl-6",
-    "primaryRounded": "rounded",
+    "primaryBorder": "border-white border-r-0",
+    "primaryTypography": "text-accent2 font-2 text-base mb-0 font-bold",
+    "primaryPadding": "pt-0 pb-0 pr-0 pl-0",
+    "primaryRounded": "rounded-none",
     "secondaryBorder": "border-white border-2",
     "secondaryTypography": "text-white undefined text-sm undefined font-bold",
     "secondaryPadding": "pt-2 pb-2 pr-6 pl-6",
@@ -54,24 +53,44 @@
     "color": "white"
   },
   "logo": {
-    "logoType": "Microgen",
+    "logoType": "",
     "logoTypeStyle": "text-white undefined text-base undefined font-bold",
-    "image": "http://res.cloudinary.com/protocolai/image/upload/v1646088242/cryptonet/protocol-logo_ewn4sv.png",
-    "imageWidth": "48",
-    "imageHeight": "48",
+    "image": "https://res.cloudinary.com/protocolai/image/upload/v1655154098/bacalhau/bacalhau-logo_cnieju.svg",
+    "imageWidth": "70",
+    "imageHeight": "31",
     "imageMargin": "24"
   },
   "nav": {
     "navItems": [
       {
-        "label": "Nav Item",
-        "link": "/"
+        "label": "Why Bacalhau",
+        "link": "why"
+      },
+      {
+        "label": "Architecture",
+        "link": "architecture"
+      },
+      {
+        "label": "Case Studies",
+        "link": "casestudies"
+      },
+      {
+        "label": "Community",
+        "link": "community"
+      },
+      {
+        "label": "Blog",
+        "link": "blog"
+      },
+      {
+        "label": "Docs",
+        "link": "docs"
       }
     ],
     "navAlignment": "text-right",
-    "navTypeStyle": "text-white font-1 text-base mb-0 ",
-    "navBackgroundColor": "from-primary to-accent2 bg-gradient-to-br",
-    "padding": "pt-10 pb-10 pr-20 pl-20 sm:pt-5 sm:pb-5 sm:pr-5 sm:pl-5"
+    "navTypeStyle": "text-primary font-1 text-base mb-0 ",
+    "navBackgroundColor": "bg-white",
+    "padding": "pt-10 pb-10 pr-20 pl-20"
   },
   "blocks": [
     {
