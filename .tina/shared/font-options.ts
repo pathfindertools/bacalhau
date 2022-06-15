@@ -196,6 +196,7 @@ export const fontOptions: {label: string, value: string}[] = [
   { "label": "Karla", "value": "Karla:wght@400;700" },
   { "label": "Karma Light", "value": "Karma:wght@300;500" },
   { "label": "Karma", "value": "Karma:wght@400;700" },
+  { "label": "Khula", "value": "Khula:wght@300;700" },
   { "label": "Kreon Light", "value": "Kreon:wght@300;500" },
   { "label": "Kreon", "value": "Kreon:wght@400;700" },
   { "label": "Lato Extra Light", "value": "Lato:wght@100;300" },

@@ -2,21 +2,21 @@
 draft: true
 blocks:
   - style:
-      alignment: 'flex-row-reverse text-left items-end items-start-vertical '
+      alignment: 'flex-row-reverse text-left items-start items-start-vertical '
       featureContent: 'w-1/2 min-h-0 '
       padding: pt-52 pb-16 pr-0 pl-20
       featureImage: 'object-right object-scale-down '
-      imagePadding: pt-0 pb-16 pr-20 pl-0
+      imagePadding: pt-52 pb-16 pr-20 pl-0
       labelStyles: text-white font-2 text-xl mb-0 font-bold
-      headlineStyles: text-primary font-1 text-2xl mb-8 font-bold
+      headlineStyles: text-primary font-1 text-3xl mb-8 font-bold
       subheadStyles: text-gray font-1 text-xl mb-7 font-bold
-      textStyles: 'text-black font-1 text-lg mb-4 '
+      textStyles: 'text-black font-2 text-base mb-4 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-white
     image:
       src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1655154094/bacalhau/shapes-1_u20ojn.svg
+        https://res.cloudinary.com/protocolai/image/upload/v1655320824/bacalhau/dlagram_lxg5zk.jpg
       alt: Shapes Illustration
     label: ''
     headline: High Level Architecture
@@ -50,9 +50,9 @@ blocks:
       contentWrap: w-8/12 ml-auto  pr-20
       content: ''
       label: ''
-      headline: absolute left-20 font-1 font-bold text-white text-xl
-      subhead: font-1 font-bold text-white text-md mb-8
-      text: font-3 text-md text-white bg-accent1 p-8
+      headline: absolute left-20 font-1 font-bold text-white text-2xl
+      subhead: font-1 text-white text-xl mb-8
+      text: font-3 text-xs text-white bg-accent1 p-8
       buttons: ''
     background:
       fillStyles: bg-primary

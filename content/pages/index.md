@@ -8,9 +8,9 @@ blocks:
       featureImage: 'object-right object-scale-down '
       imagePadding: pt-0 pb-16 pr-20 pl-0
       labelStyles: text-white font-2 text-xl mb-0 font-bold
-      headlineStyles: text-primary font-1 text-2xl mb-8 font-bold
+      headlineStyles: text-primary font-1 text-4xl mb-8 font-bold
       subheadStyles: text-gray font-1 text-xl mb-7 font-bold
-      textStyles: 'text-black font-1 text-lg mb-4 '
+      textStyles: 'text-black font-1 text-base mb-4 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-white
@@ -19,7 +19,7 @@ blocks:
         https://res.cloudinary.com/protocolai/image/upload/v1655154094/bacalhau/shapes-1_u20ojn.svg
       alt: Shapes Illustration
     label: ''
-    headline: Reinventing Science through reproducible data pipelines.
+    headline: Reinventing Science Through Reproducible Data Pipelines.
     subhead: ''
     body: >
       Bacalhau transforms Big Data processing by giving developers simple, low

@@ -12,6 +12,7 @@ module.exports = {
   variants: {
     extend: {
       margin: ['first', 'last'],
+      backgroundColor: ['odd'],
     }
   },
   theme: {

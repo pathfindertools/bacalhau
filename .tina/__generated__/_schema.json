@@ -1013,6 +1013,10 @@
                   "value": "Karma:wght@400;700"
                 },
                 {
+                  "label": "Khula",
+                  "value": "Khula:wght@300;700"
+                },
+                {
                   "label": "Kreon Light",
                   "value": "Kreon:wght@300;500"
                 },
@@ -2738,6 +2742,10 @@
                 {
                   "label": "Karma",
                   "value": "Karma:wght@400;700"
+                },
+                {
+                  "label": "Khula",
+                  "value": "Khula:wght@300;700"
                 },
                 {
                   "label": "Kreon Light",
@@ -4467,6 +4475,10 @@
                   "value": "Karma:wght@400;700"
                 },
                 {
+                  "label": "Khula",
+                  "value": "Khula:wght@300;700"
+                },
+                {
                   "label": "Kreon Light",
                   "value": "Kreon:wght@300;500"
                 },
@@ -6192,6 +6204,10 @@
                 {
                   "label": "Karma",
                   "value": "Karma:wght@400;700"
+                },
+                {
+                  "label": "Khula",
+                  "value": "Khula:wght@300;700"
                 },
                 {
                   "label": "Kreon Light",
