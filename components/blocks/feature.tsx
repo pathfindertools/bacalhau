@@ -116,14 +116,26 @@ const imgClasses = (data) => {
   const width = vertical ? verticalLayoutWidth : horizontalLayoutWidth
   const classes = removeSubstring(data.style.featureImage, "to-edge")
 
-  // Margin
-  const alignmentClass: string = alignmentClasses.find( item => item.includes("-vertical") )
-  const marginToAlignment = {
-    "items-start-vertical": "mr-auto",
-    "items-center-vertical": "mx-auto",
-    "items-end-vertical": "ml-auto",
+  let margin = ""
+  if (vertical) {
+    const alignmentClass: string = alignmentClasses.find( item => item.includes("-vertical") )
+    const alignmentToMargin = {
+      "items-start-vertical": "mr-auto",
+      "items-center-vertical": "mx-auto",
+      "items-end-vertical": "ml-auto",
+    }
+    margin = alignmentToMargin[alignmentClass]
+  } else {
+    const imageRight = ["object-right", "object-right-top", "object-right-bottom"].some(item => data.style?.featureImage?.includes(item));
+    const imageCenter = ["object-center", "object-top", "object-bottom"].some(item => data.style?.featureImage?.includes(item));
+    if (imageRight) {
+      margin = "ml-auto"
+    } else if (imageCenter) {
+      margin = "mx-auto"
+    } else {
+      margin = "mr-auto"
+    }
   }
-  const margin = marginToAlignment[alignmentClass] || ""
 
   return `sm:w-full ${margin} ${width} ${height} ${classes}`;
 };
