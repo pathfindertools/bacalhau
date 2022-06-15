@@ -2,7 +2,7 @@
   "siteUrl": "bacalhau",
   "gtmId": "",
   "favicon": "https://res.cloudinary.com/protocolai/image/upload/v1649882296/filecoin-favicon_rn3bfm.png",
-  "desktopWidth": "1200",
+  "desktopWidth": "1440",
   "colors": {
     "primary": "#04206F",
     "accent1": "#1FC3CD",
@@ -64,11 +64,11 @@
     "navItems": [
       {
         "label": "Why Bacalhau",
-        "link": "why"
+        "link": "/"
       },
       {
         "label": "Architecture",
-        "link": "architecture"
+        "link": "/architecture/"
       },
       {
         "label": "Case Studies",

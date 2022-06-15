@@ -6,7 +6,7 @@ blocks:
       featureContent: 'w-1/2 min-h-0 '
       padding: pt-52 pb-16 pr-0 pl-20
       featureImage: 'object-right object-scale-down '
-      imagePadding: pt-0 pb-16 pr-0 pl-0
+      imagePadding: pt-0 pb-16 pr-20 pl-0
       labelStyles: text-white font-2 text-xl mb-0 font-bold
       headlineStyles: text-primary font-1 text-2xl mb-8 font-bold
       subheadStyles: text-gray font-1 text-xl mb-7 font-bold
@@ -56,7 +56,7 @@ blocks:
       alignment: 'flex-row text-left items-end items-start-vertical '
       featureContent: 'w-2/3 min-h-0 '
       padding: pt-0 pb-14 pr-20 pl-0
-      featureImage: 'object-center object-scale-down '
+      featureImage: 'object-left object-scale-down '
       imagePadding: pt-0 pb-20 pr-0 pl-20
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: text-primary font-1 text-xl mb-0 font-bold
@@ -102,7 +102,6 @@ blocks:
       • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 
-
       Initially, the Bacalhau codebase will support execution of parallelizable
       jobs running on thousands of nodes. Then Bacalhau will be deployed as a
       testnet and later mainnet to support always available decentralized
@@ -141,7 +140,7 @@ blocks:
       featureContent: 'w-3/4 min-h-0 '
       padding: pt-20 pb-20 pr-20 pl-20
       featureImage: 'object-right object-scale-down '
-      imagePadding: pt-20 pb-0 pr-0 pl-0
+      imagePadding: pt-20 pb-0 pr-20 pl-0
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: text-primary font-1 text-2xl mb-5 font-bold
       subheadStyles: 'text-primary font-1 text-xl mb-5 '
@@ -158,7 +157,6 @@ blocks:
     body: >
       We're actively soliciting feedback from the scientific community, in
       particular researchers who:‍
-
 
 
       *   Publish (share) their research findings
