@@ -125,15 +125,12 @@ blocks:
     label: ''
     headline: ''
     subhead: Submitting Jobs is Easy
-    body: >
-      $ cid=$(ipfs add 10GB\_gps\_recordings.csv)
+    body: |
+      $ bacalhau run ubuntu "echo 'hello world'"
 
+      $ bacalhau list --wide --sort-by=id --id-filter=\<JOB\_ID>&#x20;
 
-      $ bacalhau submit --cids=$cid --commands="sed
-      /38.7\[2-4]....,-9.1\[3-5]..../"
-
-
-      $ bacalhau results fetch 63dc96ee-429b-4301-8988-8729d54c6ead # job-id
+      $ ipfs get \<RESULT\_CID>
     _template: tailwindFeature
   - style:
       alignment: 'flex-row-reverse text-left items-start items-start-vertical '
