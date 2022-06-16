@@ -95,7 +95,18 @@ blocks:
     subhead: >-
       Bacalahau is a network of open compute resources made available to serve
       any data processing workload.
-    body: "The purpose of Bacalhau is to provide a platform for public, transparent, and optionally verifiable computation. Bacalhau enables users to run arbitrary docker containers and wasm images as tasks against data stored in IPFS. This architecture is also referred to as Compute Over Data (or CoD). The Portuguese word for salted Cod fish is \"Bacalhau\" which is the origin of the project's name.\n\nBacalhau operates as a peer-to-peer network of nodes where each node has both a requestor and compute component.\_&#x20;\n"
+    body: >
+      Bacalhau enables users to run arbitrary docker containers and wasm images
+      as tasks against data stored in IPFS. This architecture is referred to as
+      Compute Over Data (or COD). The Portuguese word for salted Cod fish is
+      "Bacalhau" which is the origin of the project's name.
+
+
+      Bacalhau operates as a peer-to-peer network of nodes where each node
+      participates in executing (computing) jobs submitted to the cluster.
+      Bacalhau CLI requests are sent to nodes in the cluster, which then
+      broadcasts messages over the transport layer to other nodes in the
+      cluster.
     _template: tailwindFeature
   - tailwind:
       section: pb-16
