@@ -26,8 +26,8 @@ blocks:
       Bacalhau transforms Big Data processing by giving developers simple, low
       cost, “Distributed First” tools that unlock a new collaborative ecosystem.
     buttons:
-      - label: Call to Action Link >
-        link: /
+      - label: Learn More
+        link: /architecture.html
     _template: tailwindFeature
   - tailwind:
       section: pt-16 pb-16
