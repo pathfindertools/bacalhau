@@ -18,7 +18,7 @@ blocks:
       button: ''
     image:
       src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1655320824/bacalhau/dlagram_lxg5zk.jpg
+        https://res.cloudinary.com/protocolai/image/upload/v1655389409/bacalhau/Bacalhau_Architecture_and_Roadmap_for_the_Website_pjtcsp.jpg
     label: x
     headline: High Level Architecture
     subhead: ''
@@ -44,15 +44,12 @@ blocks:
     label: ''
     headline: Sample Code
     subhead: Submitting Jobs is Easy
-    body: >
-      $ cid=$(ipfs add 10GB\_gps\_recordings.csv)
+    body: |
+      $ bacalhau run ubuntu "echo 'hello world'"
 
+      $ bacalhau list --wide --sort-by=id --id-filter=\<JOB\_ID>&#x20;
 
-      $ bacalhau submit --cids=$cid --commands="sed
-      /38.7\[2-4]....,-9.1\[3-5]..../"
-
-
-      $ bacalhau results fetch 63dc96ee-429b-4301-8988-8729d54c6ead # job-id
+      $ ipfs get \<RESULT\_CID>
     _template: tailwindFeature
 meta:
   pageTitle: Bacalhau
