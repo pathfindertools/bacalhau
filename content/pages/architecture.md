@@ -22,22 +22,7 @@ blocks:
     label: x
     headline: High Level Architecture
     subhead: ''
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis nec
-      venenatis magna scelerisque amet id suspendisse sed natoque. Cras cursus
-      ut suspendisse pretium augue erat ac. Praesent vel arcu nibh dictum
-      egestas cum turpis nibh. Massa augue lacus risus est, pellentesque. Quam
-      fusce id ut felis mauris. Tristique dictumst ultricies id at ultrices id
-      in est. Lectus nullam malesuada neque aliquet nullam urna id. Donec
-      aliquam volutpat dictum consectetur. Sed habitant scelerisque et sit.
-      Scelerisque ut nam dis suspendisse nam quam nullam phasellus vitae.
-
-
-      Hendrerit purus lectus rhoncus aenean et elit. Etiam nulla adipiscing
-      imperdiet pellentesque et, amet. Sed a viverra diam vitae, leo praesent
-      aenean vel pellentesque. Neque, at ut nisl, eu pulvinar cursus tellus.
-      Sapien facilisis nisl in sed aenean. Mauris quisque lectus lectus
-      vestibulum.
+    body: "Bacalhau operates as a peer-to-peer network of nodes where each node has both a requestor and compute component.\_ To interact with the cluster - Bacalhau CLI requests are sent to a node in the cluster (via JSON over HTTP), which then broadcasts messages over the transport layer to other nodes in the cluster.\_ All other nodes in the network are connected to the transport layer and as such have a shared view of the world.\n"
     buttons:
       - label: Call to Action Link >
         link: /
