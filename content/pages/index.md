@@ -131,7 +131,7 @@ blocks:
     headline: ''
     subhead: Submitting Jobs is Easy
     body: |
-      $ bacalhau run ubuntu "echo 'hello world'"
+      $ bacalhau run ubuntu echo hello
 
       $ bacalhau list --wide --sort-by=id --id-filter=\<JOB\_ID>&#x20;
 
