@@ -46,11 +46,15 @@ blocks:
     label: ''
     headline: Why Bacalhau?
     subhead: Bacalhau seeks to address deep rooted gaps in the research community
-    body: |
+    body: >
       *   Cost & budget limitations for research departments
+
       *   Lack of easy to use tools for collaborative data processing
-      *   Gravity of moving GB+ datasets, e.g. Landsat, Genome
+
       *   Challenges in building/collaborate with prior studies
+
+      *   Performance limitations of moving large GB+ datasets (e.g. Landsat,
+      Genome) across public networks
     _template: tailwindFeature
   - style:
       alignment: 'flex-row text-left items-end items-start-vertical '
