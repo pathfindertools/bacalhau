@@ -27,7 +27,7 @@ blocks:
       cost, “Distributed First” tools that unlock a new collaborative ecosystem.
     buttons:
       - label: Learn More
-        link: /architecture.html
+        link: /architecture
     _template: tailwindFeature
   - tailwind:
       section: pt-16 pb-16
