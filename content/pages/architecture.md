@@ -18,29 +18,14 @@ blocks:
       button: ''
     image:
       src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1655320824/bacalhau/dlagram_lxg5zk.jpg
+        https://res.cloudinary.com/protocolai/image/upload/v1655389409/bacalhau/Bacalhau_Architecture_and_Roadmap_for_the_Website_pjtcsp.jpg
     label: x
     headline: High Level Architecture
     subhead: ''
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis nec
-      venenatis magna scelerisque amet id suspendisse sed natoque. Cras cursus
-      ut suspendisse pretium augue erat ac. Praesent vel arcu nibh dictum
-      egestas cum turpis nibh. Massa augue lacus risus est, pellentesque. Quam
-      fusce id ut felis mauris. Tristique dictumst ultricies id at ultrices id
-      in est. Lectus nullam malesuada neque aliquet nullam urna id. Donec
-      aliquam volutpat dictum consectetur. Sed habitant scelerisque et sit.
-      Scelerisque ut nam dis suspendisse nam quam nullam phasellus vitae.
-
-
-      Hendrerit purus lectus rhoncus aenean et elit. Etiam nulla adipiscing
-      imperdiet pellentesque et, amet. Sed a viverra diam vitae, leo praesent
-      aenean vel pellentesque. Neque, at ut nisl, eu pulvinar cursus tellus.
-      Sapien facilisis nisl in sed aenean. Mauris quisque lectus lectus
-      vestibulum.
+    body: "Bacalhau operates as a peer-to-peer network of nodes where each node has both a requestor and compute component.\_&#x20;\n\nTo interact with the cluster - Bacalhau CLI requests are sent to a node in the cluster (via JSON over HTTP), which then broadcasts messages over the transport layer to other nodes in the cluster.\_ All other nodes in the network are connected to the transport layer and as such have a shared view of the world.\n"
     buttons:
-      - label: Call to Action Link >
-        link: /
+      - label: Learn More
+        link: 'https://docs.bacalhau.org '
     _template: tailwindFeature
   - tailwind:
       section: pt-16 pb-16
@@ -59,15 +44,12 @@ blocks:
     label: ''
     headline: Sample Code
     subhead: Submitting Jobs is Easy
-    body: >
-      $ cid=$(ipfs add 10GB\_gps\_recordings.csv)
+    body: |
+      $ bacalhau run ubuntu echo hello
 
+      $ bacalhau list --wide --sort-by=id --id-filter=\<JOB\_ID>&#x20;
 
-      $ bacalhau submit --cids=$cid --commands="sed
-      /38.7\[2-4]....,-9.1\[3-5]..../"
-
-
-      $ bacalhau results fetch 63dc96ee-429b-4301-8988-8729d54c6ead # job-id
+      $ ipfs get \<RESULT\_CID>
     _template: tailwindFeature
 meta:
   pageTitle: Bacalhau
