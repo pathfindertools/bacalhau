@@ -26,8 +26,8 @@ blocks:
       Bacalhau transforms Big Data processing by giving developers simple, low
       cost, “Distributed First” tools that unlock a new collaborative ecosystem.
     buttons:
-      - label: Call to Action Link >
-        link: /
+      - label: Learn More
+        link: /architecture
     _template: tailwindFeature
   - tailwind:
       section: pt-16 pb-16
@@ -46,11 +46,15 @@ blocks:
     label: ''
     headline: Why Bacalhau?
     subhead: Bacalhau seeks to address deep rooted gaps in the research community
-    body: |
+    body: >
       *   Cost & budget limitations for research departments
+
       *   Lack of easy to use tools for collaborative data processing
-      *   Gravity of moving GB+ datasets, e.g. Landsat, Genome
+
       *   Challenges in building/collaborate with prior studies
+
+      *   Performance limitations of moving large GB+ datasets (e.g. Landsat,
+      Genome) across public networks
     _template: tailwindFeature
   - style:
       alignment: 'flex-row text-left items-end items-start-vertical '
@@ -96,16 +100,17 @@ blocks:
       Bacalahau is a network of open compute resources made available to serve
       any data processing workload.
     body: >
-      • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Bacalhau enables users to run arbitrary docker containers and wasm images
+      as tasks against data stored in IPFS. This architecture is referred to as
+      Compute Over Data (or COD). The Portuguese word for salted Cod fish is
+      "Bacalhau" which is the origin of the project's name.
 
 
-      • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-
-      Initially, the Bacalhau codebase will support execution of parallelizable
-      jobs running on thousands of nodes. Then Bacalhau will be deployed as a
-      testnet and later mainnet to support always available decentralized
-      compute.
+      Bacalhau operates as a peer-to-peer network of nodes where each node
+      participates in executing (computing) jobs submitted to the cluster.
+      Bacalhau CLI requests are sent to nodes in the cluster, which then
+      broadcasts messages over the transport layer to other nodes in the
+      cluster.
     _template: tailwindFeature
   - tailwind:
       section: pb-16
@@ -125,15 +130,12 @@ blocks:
     label: ''
     headline: ''
     subhead: Submitting Jobs is Easy
-    body: >
-      $ cid=$(ipfs add 10GB\_gps\_recordings.csv)
+    body: |
+      $ bacalhau run ubuntu echo hello
 
+      $ bacalhau list --wide --sort-by=id --id-filter=\<JOB\_ID>&#x20;
 
-      $ bacalhau submit --cids=$cid --commands="sed
-      /38.7\[2-4]....,-9.1\[3-5]..../"
-
-
-      $ bacalhau results fetch 63dc96ee-429b-4301-8988-8729d54c6ead # job-id
+      $ ipfs get \<RESULT\_CID>
     _template: tailwindFeature
   - style:
       alignment: 'flex-row-reverse text-left items-start items-start-vertical '
