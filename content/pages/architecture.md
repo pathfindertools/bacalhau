@@ -22,10 +22,10 @@ blocks:
     label: x
     headline: High Level Architecture
     subhead: ''
-    body: "Bacalhau operates as a peer-to-peer network of nodes where each node has both a requestor and compute component.\_ To interact with the cluster - Bacalhau CLI requests are sent to a node in the cluster (via JSON over HTTP), which then broadcasts messages over the transport layer to other nodes in the cluster.\_ All other nodes in the network are connected to the transport layer and as such have a shared view of the world.\n"
+    body: "Bacalhau operates as a peer-to-peer network of nodes where each node has both a requestor and compute component.\_&#x20;\n\nTo interact with the cluster - Bacalhau CLI requests are sent to a node in the cluster (via JSON over HTTP), which then broadcasts messages over the transport layer to other nodes in the cluster.\_ All other nodes in the network are connected to the transport layer and as such have a shared view of the world.\n"
     buttons:
       - label: Learn More
-        link: docs.bacalhau.org
+        link: 'https://docs.bacalhau.org '
     _template: tailwindFeature
   - tailwind:
       section: pt-16 pb-16
