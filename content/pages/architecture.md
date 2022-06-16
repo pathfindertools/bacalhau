@@ -1,24 +1,25 @@
 ---
 draft: true
 blocks:
-  - style:
-      alignment: 'flex-row-reverse text-left items-start items-start-vertical '
-      featureContent: 'w-1/2 min-h-0 '
-      padding: pt-52 pb-16 pr-0 pl-20
-      featureImage: 'object-right object-scale-down '
-      imagePadding: pt-52 pb-16 pr-20 pl-0
-      labelStyles: text-white font-2 text-xl mb-0 font-bold
-      headlineStyles: text-primary font-1 text-3xl mb-8 font-bold
-      subheadStyles: text-gray font-1 text-xl mb-7 font-bold
-      textStyles: 'text-black font-2 text-base mb-4 '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-white
+  - tailwind:
+      section: pt-16 pb-16
+      wrap: >-
+        max-w-desktop-full mx-auto relative flex flex-row-reverse items-start
+        items-vertical-end
+      imageWrap: w-1/2 pt-60 pb-16 px-20
+      image: ml-auto
+      contentWrap: w-1/2 pt-40 pb-16 pl-20
+      content: ''
+      label: w-6 h-6 bg-accent1 text-accent1 mb-8
+      headline: text-primary font-1 text-3xl mb-8 font-bold
+      subhead: ''
+      text: text-black font-2 text-base mb-4
+      buttons: text-accent2 text-base font-bold
+      button: ''
     image:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1655320824/bacalhau/dlagram_lxg5zk.jpg
-      alt: Shapes Illustration
-    label: ''
+    label: x
     headline: High Level Architecture
     subhead: ''
     body: >
@@ -29,19 +30,18 @@ blocks:
       fusce id ut felis mauris. Tristique dictumst ultricies id at ultrices id
       in est. Lectus nullam malesuada neque aliquet nullam urna id. Donec
       aliquam volutpat dictum consectetur. Sed habitant scelerisque et sit.
-      Scelerisque ut nam dis suspendisse nam quam nullam phasellus vitae.&#x20;
+      Scelerisque ut nam dis suspendisse nam quam nullam phasellus vitae.
 
 
       Hendrerit purus lectus rhoncus aenean et elit. Etiam nulla adipiscing
       imperdiet pellentesque et, amet. Sed a viverra diam vitae, leo praesent
       aenean vel pellentesque. Neque, at ut nisl, eu pulvinar cursus tellus.
       Sapien facilisis nisl in sed aenean. Mauris quisque lectus lectus
-      vestibulum.&#x20;
+      vestibulum.
     buttons:
       - label: Call to Action Link >
-        link: '#'
-        type: primary
-    _template: feature
+        link: /
+    _template: tailwindFeature
   - tailwind:
       section: pt-16 pb-16
       wrap: 'max-w-desktop-full mx-auto relative '

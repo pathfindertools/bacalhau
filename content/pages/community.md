@@ -16,7 +16,7 @@ blocks:
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: text-primary font-1 text-2xl mb-5 font-bold
       subheadStyles: 'text-primary font-1 text-xl mb-5 '
-      textStyles: 'text-black font-1 text-base mb-5 '
+      textStyles: 'text-black font-2 text-base mb-5 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-gray-light
@@ -56,7 +56,7 @@ blocks:
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-primary font-1 text-xl mb-5 '
       subheadStyles: 'text-primary font-1 text-lg mb-0 '
-      textStyles: 'text-black font-1 text-base mb-5 '
+      textStyles: 'text-black font-2 text-base mb-5 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-gray-light

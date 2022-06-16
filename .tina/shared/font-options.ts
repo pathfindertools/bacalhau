@@ -184,7 +184,7 @@ export const fontOptions: {label: string, value: string}[] = [
   { "label": "Jost Extra Light", "value": "Jost:wght@100;300" },
   { "label": "Jost Heavy", "value": "Jost:wght@900" },
   { "label": "Jost Light", "value": "Jost:wght@300;500" },
-  { "label": "Jost", "value": "Jost:wght@400;700" },
+  { "label": "Jost", "value": "Jost:wght@400;600" },
   { "label": "Judson", "value": "Judson:wght@400;700" },
   { "label": "Kameron", "value": "Kameron:wght@400;700" },
   { "label": "Kanit Extra Light", "value": "Kanit:wght@100;300" },

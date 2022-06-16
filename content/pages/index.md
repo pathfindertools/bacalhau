@@ -1,24 +1,25 @@
 ---
 draft: true
 blocks:
-  - style:
-      alignment: 'flex-row-reverse text-left items-end items-start-vertical '
-      featureContent: 'w-1/2 min-h-0 '
-      padding: pt-52 pb-16 pr-0 pl-20
-      featureImage: 'object-right object-scale-down '
-      imagePadding: pt-0 pb-16 pr-20 pl-0
-      labelStyles: text-white font-2 text-xl mb-0 font-bold
-      headlineStyles: text-primary font-1 text-4xl mb-8 font-bold
-      subheadStyles: text-gray font-1 text-xl mb-7 font-bold
-      textStyles: 'text-black font-1 text-base mb-4 '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-white
+  - tailwind:
+      section: ''
+      wrap: >-
+        max-w-desktop-full mx-auto relative flex flex-row-reverse items-end
+        items-start-vertical
+      imageWrap: pb-16 pr-20
+      image: object-right object-scale-down
+      contentWrap: w-3/4 pt-52 pb-16 pl-20
+      content: ''
+      label: bg-accent4 text-accent4 w-6 h-6 mb-8
+      headline: text-primary font-1 text-4xl mb-8 font-bold
+      subhead: ''
+      text: text-black font-2 text-base mb-8 max-w-lg
+      buttons: 'text-accent2 font-bold text-base '
+      button: ''
     image:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1655154094/bacalhau/shapes-1_u20ojn.svg
-      alt: Shapes Illustration
-    label: ''
+    label: x
     headline: Reinventing Science Through Reproducible Data Pipelines.
     subhead: ''
     body: >
@@ -26,20 +27,19 @@ blocks:
       cost, “Distributed First” tools that unlock a new collaborative ecosystem.
     buttons:
       - label: Call to Action Link >
-        link: '#'
-        type: primary
-    _template: feature
+        link: /
+    _template: tailwindFeature
   - tailwind:
       section: pt-16 pb-16
       wrap: 'max-w-desktop-full mx-auto relative '
-      imageWrap: ' pl-20'
+      imageWrap: pl-20
       image: ''
-      contentWrap: w-8/12 ml-auto  pr-20
+      contentWrap: w-8/12 ml-auto pr-20
       content: ''
       label: ''
       headline: absolute left-20 font-1 font-bold text-primary text-xl
-      subhead: font-1 font-bold text-primary text-md mb-8
-      text: font-1 text-md
+      subhead: font-1 font-bold text-primary text-base mb-8
+      text: font-2 text-base
       buttons: ''
     background:
       fillStyles: bg-accent3
@@ -61,7 +61,7 @@ blocks:
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: text-primary font-1 text-xl mb-0 font-bold
       subheadStyles: text-primary font-1 text-base mb-8 font-bold
-      textStyles: 'text-black font-1 text-base mb-0 '
+      textStyles: 'text-black font-2 text-base mb-0 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-accent3
@@ -85,8 +85,8 @@ blocks:
       content: ''
       label: ''
       headline: absolute left-20 font-1 font-bold text-primary text-xl
-      subhead: font-1 font-bold text-primary text-md mb-8
-      text: font-1 text-md
+      subhead: font-1 font-bold text-primary text-base mb-8
+      text: font-2 text-base
       buttons: ''
     background:
       fillStyles: bg-white
@@ -116,8 +116,8 @@ blocks:
       content: ''
       label: ''
       headline: ''
-      subhead: font-1 font-bold text-primary text-md mb-8
-      text: bg-accent1 p-6 text-white text-sm font-3
+      subhead: font-1 font-bold text-primary text-base mb-8
+      text: bg-accent1 p-6 text-white text-xs font-3
       buttons: ''
     image:
       src: >-
@@ -144,7 +144,7 @@ blocks:
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: text-primary font-1 text-2xl mb-5 font-bold
       subheadStyles: 'text-primary font-1 text-xl mb-5 '
-      textStyles: 'text-black font-1 text-base mb-5 '
+      textStyles: 'text-black font-2 text-base mb-5 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-gray-light
@@ -184,7 +184,7 @@ blocks:
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-primary font-1 text-xl mb-5 '
       subheadStyles: 'text-primary font-1 text-lg mb-0 '
-      textStyles: 'text-black font-1 text-base mb-5 '
+      textStyles: 'text-black font-2 text-base mb-5 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-gray-light
@@ -194,7 +194,7 @@ blocks:
     body: |
       Jump into the source code on Github and participate on our Slack channels.
     buttons:
-      - label: Cource Code
+      - label: Source Code
         link: /
         type: primary
       - label: Slack

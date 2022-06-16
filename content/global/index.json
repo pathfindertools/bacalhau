@@ -16,13 +16,13 @@
     "black": "#000000"
   },
   "fonts": {
-    "font1": "Jost:wght@400;700",
-    "font2": "Khula:wght@400;700",
+    "font1": "Jost:wght@400;600",
+    "font2": "Khula:wght@300;700",
     "font3": "Space Mono:wght@400;700",
     "font4": "Arial"
   },
   "sizeLeading": {
-    "textXs": "12/17",
+    "textXs": "13/17",
     "textSm": "14/21",
     "textMd": "18/26",
     "textLg": "22/28",
@@ -91,24 +91,15 @@
   "blocks": [
     {
       "style": {
-        "textAlignment": "text-center",
         "minHeight": "min-h-0",
-        "padding": "pt-10 pb-10 pr-10 pl-10",
-        "width": "normal",
-        "labelStyles": "text-black undefined text-sm mb-0 ",
-        "headlineStyles": "text-black undefined text-5xl mb-0 ",
-        "subheadStyles": "text-black undefined text-3xl mb-0 ",
-        "textStyles": "text-white undefined text-sm mb-0 ",
-        "contentOrder": "labelHeadingsContent"
+        "fullWidth": false,
+        "padding": "pt-20 pb-20 pr-20 pl-20"
       },
       "background": {
-        "fillStyles": "bg-primary"
+        "fillStyles": "bg-black"
       },
-      "label": "",
-      "headline": "",
-      "subhead": "",
-      "body": "Made with love by [Protocol Labs](https://protocol.ai)\n",
-      "_template": "banner"
+      "markup": "<div class=\"flex flex-row items-start w-full\">\n  <div class=\"w-1/5\">\n    <img src=\"https://res.cloudinary.com/protocolai/image/upload/v1655154094/bacalhau/bacalhau-logo-white_jmgclc.svg\" width=\"71\" height=\"31\" />\n  </div>\n  <div class=\"w-1/5 text-white text-base leading-loose font-2\">\n    <h4 class=\"font-bold\">Pages</h4>\n    <ul>\n      <li><a href=\"/architecture\">Architecture</a></li>\n      <li><a href=\"/casestudies\">Case Studies</a></li>\n      <li><a href=\"/community\">Community</a></li>\n      <li><a href=\"#\">Docs</a></li>\n    </ul>\n  </div>\n  <div class=\"w-1/5 text-white text-base leading-loose font-2\">\n    <h4 class=\"font-bold\">Contact Us</h4>\n    <ul>\n      <li><a href=\"#\">Email</a></li>\n      <li><a href=\"#\">Slack</a></li>\n      <li><a href=\"#\">Github</a></li>\n    </ul>\n  </div>\n  <div class=\"flex-1 flex flex-row-reverse gap-8\">\n    <img src=\"https://res.cloudinary.com/protocolai/image/upload/v1655358399/bacalhau/github_wu5qtn.svg\" width=\"32\" height=\"32\"/>\n    <img src=\"https://res.cloudinary.com/protocolai/image/upload/v1655358403/bacalhau/slack_f3zkob.svg\" width=\"32\" height=\"32\" />\n  </div>\n</div>\n",
+      "_template": "embed"
     }
   ]
 }

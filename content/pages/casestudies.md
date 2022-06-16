@@ -6,21 +6,25 @@ blocks:
       wrap: ''
       imageWrap: ''
       image: ''
-      contentWrap: 'p-20 pt-60 '
-      content: w-3/4 pr-12
-      label: ''
-      headline: text-primary font-bold text-4xl font-1 mb-12
+      contentWrap: p-20 pt-60 max-w-desktop-full mx-auto
+      content: ''
+      label: w-6 h-6 bg-accent1 text-accent1 mb-8
+      headline: text-primary font-bold text-4xl font-1 mb-8
       subhead: ''
-      text: mb-6 text-base
-      buttons: ''
+      text: mb-6 text-base max-w-lg font-2
+      buttons: text-accent2 font-bold text-base
       button: ''
       cardWrap: ''
-      card: 'p-20 odd:bg-gray-light text-base'
-      cardContentWrap: w-3/4 pr-12
+      card: >-
+        p-20 odd:bg-gray-light text-base flex flex-row-reverse
+        max-w-desktop-full mx-auto
+      cardImageWrap: ''
+      cardContentWrap: 'flex-1 pr-12 '
+      cardContent: max-w-lg
       cardHeadline: text-primary text-xl font-bold font-1 mb-8
       cardSubhead: text-primary text-base font-2
       cardText: text-black text-base font-2
-    label: ''
+    label: x
     headline: Case Studies
     subhead: ''
     body: >
@@ -31,7 +35,10 @@ blocks:
         link: /
         type: primary
     items:
-      - headline: Problem Listed Here
+      - image:
+          src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1655320824/bacalhau/dlagram_lxg5zk.jpg
+        headline: Problem Listed Here
         subhead: 'Explanation:'
         text: >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu

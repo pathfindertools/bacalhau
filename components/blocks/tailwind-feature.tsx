@@ -16,11 +16,11 @@ export const TailwindFeature = ({ data, parentField = ""  }) => {
     <Section className={tw.section} background={data.background} navigationLabel={data.navigationLabel}>
       <div className={tw.background}></div>
       <div className={tw.wrap}>
-        <div className={tw.imageWrap}>
-          {data.image?.src && (
-            <img className={tw.image} alt={data.image?.alt} src={data.image?.src} data-tinafield={`${parentField}.image`} />
-          )}
-        </div>
+        {data.image?.src && (
+          <div className={tw.imageWrap}>
+              <img className={tw.image} alt={data.image?.alt} src={data.image?.src} data-tinafield={`${parentField}.image`} />
+          </div>
+        )}
         <div className={tw.contentWrap}>
           <div className={`markdown  ${tw.content}`}>
             {data.label &&<h4 className={tw.label} data-tinafield={`${parentField}.label`}>{data.label}</h4>}
