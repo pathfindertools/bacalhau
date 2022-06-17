@@ -123,7 +123,8 @@ blocks:
       headline: ''
       subhead: font-1 font-bold text-primary text-base mb-8
       text: bg-accent1 p-6 text-white text-xs font-3
-      buttons: ''
+      buttons: 'text-accent2 font-bold text-base '
+      button: ''
     image:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1655154093/bacalhau/shapes-3_ivg8gb.svg
