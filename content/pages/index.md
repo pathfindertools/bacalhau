@@ -119,7 +119,7 @@ blocks:
       cluster.
     _template: tailwindFeature
   - tailwind:
-      section: pb-16
+      section: pb-26
       wrap: flex max-w-desktop-full mx-auto relative items-end
       imageWrap: 'pl-20 sm:hidden'
       image: ''
@@ -129,7 +129,8 @@ blocks:
       headline: ''
       subhead: 'font-1 font-bold text-primary text-base mb-8 sm:text-xl sm:font-normal'
       text: bg-accent1 p-6 text-white text-xs font-3
-      buttons: ''
+      buttons: 'text-accent2 font-bold text-base '
+      button: ''
     image:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1655154093/bacalhau/shapes-3_ivg8gb.svg
@@ -142,47 +143,10 @@ blocks:
       $ bacalhau list --wide --sort-by=id --id-filter=\<JOB\_ID>&#x20;
 
       $ ipfs get \<RESULT\_CID>
-    _template: tailwindFeature
-  - style:
-      alignment: 'flex-row text-left items-start items-start-vertical '
-      featureContent: 'w-3/4 min-h-0 '
-      padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
-      featureImage: 'object-center object-contain '
-      imagePadding: pt-20 pb-0 pr-20 pl-0
-      labelStyles: 'text-black font-1 text-sm mb-0 '
-      headlineStyles: text-primary font-1 text-2xl mb-5 font-bold
-      subheadStyles: 'text-primary font-1 text-xl mb-5 '
-      textStyles: 'text-black font-2 text-base mb-5 '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-gray-light
-    image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1655154094/bacalhau/shapes-4_t6tkoz.svg
-    label: ''
-    headline: Community
-    subhead: Researchers
-    body: >
-      We're actively soliciting feedback from the scientific community, in
-      particular researchers who:‍
-
-
-      *   Publish (share) their research findings
-
-      *   Collaborate on the research project with other individuals via Github
-      or a similar platform
-
-      *   Share their code and/or use code shared in Github as a starting point
-
-      *   Have a multi-step process for their research data pipeline
-
-      *   Please reach out via the Google Form button below and we'll engage
-      with you directly!
     buttons:
-      - label: Get In Touch
-        link: /
-        type: primary
-    _template: feature
+      - label: Learn More
+        link: /architecture
+    _template: tailwindFeature
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
       featureContent: 'w-3/4 min-h-0 '
@@ -196,17 +160,25 @@ blocks:
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-gray-light
+    image:
+      src: >-
+        https://res.cloudinary.com/protocolai/image/upload/v1655154094/bacalhau/shapes-4_t6tkoz.svg
     label: ''
-    headline: "For Developers / Contributors\L"
+    headline: Dive In!
     subhead: ''
-    body: |
-      Jump into the source code on Github and participate on our Slack channels.
+    body: ''
     buttons:
-      - label: Source Code
-        link: /
-        type: primary
       - label: Slack
-        link: /
+        link: 'https://filecoinproject.slack.com/archives/C02RLM3JHUY'
+        type: primary
+      - label: Source Code
+        link: 'https://github.com/filecoin-project/bacalhau'
+        type: primary
+      - label: Community
+        link: /community
+        type: primary
+      - label: Architecture
+        link: /architecture
         type: primary
     _template: feature
 meta:
