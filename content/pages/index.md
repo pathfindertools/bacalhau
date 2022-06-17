@@ -162,6 +162,9 @@ blocks:
     subhead: ''
     body: ''
     buttons:
+      - label: Slack
+        link: 'https://filecoinproject.slack.com/archives/C02RLM3JHUY'
+        type: primary
       - label: Source Code
         link: 'https://github.com/filecoin-project/bacalhau'
         type: primary
