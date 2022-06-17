@@ -8,10 +8,10 @@ blocks:
     markup: ''
     _template: embed
   - style:
-      alignment: 'flex-row text-left items-start items-start-vertical '
+      alignment: 'flex-row-reverse text-left items-start items-start-vertical '
       featureContent: 'w-3/4 min-h-0 '
       padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
-      featureImage: 'object-center object-contain '
+      featureImage: 'object-center object-scale-down '
       imagePadding: pt-20 pb-0 pr-20 pl-0
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: text-primary font-1 text-2xl mb-5 font-bold
