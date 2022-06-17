@@ -175,32 +175,6 @@ blocks:
         link: /architecture
         type: primary
     _template: feature
-  - style:
-      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
-      featureContent: 'w-3/4 min-h-0 '
-      padding: pt-0 pb-20 pr-10 pl-20
-      featureImage: 'object-center object-scale-down '
-      imagePadding: pt-0 pb-0 pr-0 pl-0
-      labelStyles: 'text-black font-1 text-sm mb-0 '
-      headlineStyles: 'text-primary font-1 text-xl mb-5 '
-      subheadStyles: 'text-primary font-1 text-lg mb-0 '
-      textStyles: 'text-black font-2 text-base mb-5 '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-gray-light
-    label: ''
-    headline: "For Developers / Contributors\L"
-    subhead: ''
-    body: |
-      Jump into the source code on Github and participate on our Slack channels.
-    buttons:
-      - label: Source Code
-        link: /
-        type: primary
-      - label: Slack
-        link: /
-        type: primary
-    _template: feature
 meta:
   pageTitle: Bacalhau
   pageDescription: Reinventing Science through reproducible data pipelines
