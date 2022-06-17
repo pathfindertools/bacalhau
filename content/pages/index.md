@@ -158,28 +158,10 @@ blocks:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1655154094/bacalhau/shapes-4_t6tkoz.svg
     label: ''
-    headline: Community
-    subhead: Researchers
-    body: >
-      We're actively soliciting feedback from the scientific community, in
-      particular researchers who:‍
-
-
-      *   Publish (share) their research findings
-
-      *   Collaborate on the research project with other individuals via Github
-      or a similar platform
-
-      *   Share their code and/or use code shared in Github as a starting point
-
-      *   Have a multi-step process for their research data pipeline
-
-      *   Please reach out via the Google Form button below and we'll engage
-      with you directly!
-    buttons:
-      - label: Get In Touch
-        link: /
-        type: primary
+    headline: Dive In!
+    subhead: ''
+    body: |
+      [Community](/community "Community")
     _template: feature
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
