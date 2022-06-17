@@ -68,7 +68,7 @@ export const Header = ({
     <section className="relative">
       <div className={`${sectionClasses} sm:h-screen absolute z-40 top-0 left-0 right-0`}>
         <div style={backgroundStyles} className={`${backgroundClasses} ${nav.navBackgroundColor} transition duration-400 absolute inset-0 -z-1 hidden sm:block`}></div>
-        <div className={`max-w-desktop-full mx-auto ${nav?.padding}`}>
+        <div className={`max-w-desktop-full mx-auto sm:p-10 ${nav?.padding}`}>
           
           {/* Desktop Nav */}
           <div className="flex items-center sm:hidden">
@@ -92,9 +92,9 @@ export const Header = ({
           </div>
 
           {/* Mobile Nav */}
-          <Logo className={`absolute top-4 left-4 hidden sm:block`} />
-          <div className="absolute top-0 p-4 right-0 hidden sm:block" onClick={() => setNavOpen(!navOpen)}>
-            <Burger color="white" isOpen={navOpen}  />
+          <Logo className={`absolute top-10 left-6 hidden sm:block`} />
+          <div className="absolute top-0 p-10 right-0 hidden sm:block" onClick={() => setNavOpen(!navOpen)}>
+            <Burger color="primary" isOpen={navOpen}  />
           </div>
           <ul style={navStyles} className={`${navClasses} ${nav.navTypeStyle} ${nav.navAlignment} flex-grow list-none hidden sm:block mt-16`}>
             {navList(blocks)?.map(function (item, index) {

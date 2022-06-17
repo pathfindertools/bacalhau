@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Burger = ({
-  color = "white",
+  color = "primary",
   isOpen = false
 }) => {
   const colorClass = {
@@ -17,7 +17,7 @@ export const Burger = ({
     accent4: "bg-accent4",
   };
 
-  const lineClasses = "absolute z-10 left-1 w-6 h-px";
+  const lineClasses = "absolute z-10 left-1 w-6 h-0.5";
 
   const stylesTop = isOpen ? {
     width: "1.5rem",
@@ -48,7 +48,7 @@ export const Burger = ({
 
   return (
     <div className="relative w-8 h-8">
-      <div className={`${lineClasses} ${colorClass[color]}`} style={stylesTop}></div>
+      <div className={`${lineClasses} ${colorClass[color]} bg-primary`} style={stylesTop}></div>
       <div className={`${lineClasses} ${colorClass[color]}`} style={stylesMiddle}></div>
       <div className={`${lineClasses} ${colorClass[color]}`} style={stylesBottom}></div>
     </div>
