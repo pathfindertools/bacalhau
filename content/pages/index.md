@@ -74,10 +74,17 @@ blocks:
     label: ''
     headline: ''
     subhead: >-
-      The goal of the Bacalhau project is to give researchers and data engineers
-      the ability to publicly reproduce data pipelines, thereby making their
-      research more transparent and reusable. 
-    body: "As a result, we hope to solve underlying problems for the scientific community including:\L\n\n*   Scientific record owned by a small set of publishers\n*   Unit of record is limited to a PDF\n*   Reproducibility/collaboration crisis\n*   DOI citation system is broken, insecure\n"
+      Bacalhau transforms Big Data processing by giving developers simple, low
+      cost, decentralized tools that unlock a new collaborative ecosystem
+    body: >
+      *   Fast and reliable - the network runs the jobs where the data is
+      already stored
+
+      *   Simple and familiar - use the tools you already know and love (Docker,
+      GNU, Python, R, Matlab, WASM)
+
+      *   Collaborative - All content can be shared using the globally
+      distributed IPFS network
     _template: feature
   - tailwind:
       section: pt-16 pb-16
