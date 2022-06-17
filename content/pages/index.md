@@ -165,6 +165,9 @@ blocks:
       - label: Community
         link: /community
         type: primary
+      - label: Architecture
+        link: /architecture
+        type: primary
     _template: feature
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
