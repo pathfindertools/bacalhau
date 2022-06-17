@@ -113,7 +113,7 @@ blocks:
       cluster.
     _template: tailwindFeature
   - tailwind:
-      section: pb-16
+      section: pb-26
       wrap: flex max-w-desktop-full mx-auto relative items-end
       imageWrap: pl-20
       image: ''
