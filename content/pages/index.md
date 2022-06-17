@@ -136,6 +136,9 @@ blocks:
       $ bacalhau list --wide --sort-by=id --id-filter=\<JOB\_ID>&#x20;
 
       $ ipfs get \<RESULT\_CID>
+    buttons:
+      - label: Learn More
+        link: /architecture
     _template: tailwindFeature
   - style:
       alignment: 'flex-row-reverse text-left items-start items-start-vertical '
