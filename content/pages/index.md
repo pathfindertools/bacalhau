@@ -11,8 +11,8 @@ blocks:
       contentWrap: 'w-3/4 pt-52 pb-16 pl-20 sm:px-8 sm:w-full'
       content: ''
       label: bg-accent4 text-accent4 w-6 h-6 mb-8
-      headline: 'text-primary font-1 text-4xl mb-8 font-bold sm:text-2xl'
-      subhead: ''
+      headline: 'text-primary font-1 text-4xl mb-1 font-bold sm:text-2xl'
+      subhead: 'text-primary font-1 text-2xl mb-10 font-bold sm:text-2xl'
       text: text-black font-2 text-base mb-8 max-w-lg
       buttons: 'text-accent2 font-bold text-base '
       button: ''
@@ -20,8 +20,8 @@ blocks:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1655154094/bacalhau/shapes-1_u20ojn.svg
     label: x
-    headline: Reinventing Science Through Reproducible Data Pipelines.
-    subhead: ''
+    headline: Bacalhau Project
+    subhead: Data. Transformed.
     body: >
       Bacalhau transforms Big Data processing by giving developers simple, low
       cost, “Distributed First” tools that unlock a new collaborative ecosystem.
@@ -121,14 +121,14 @@ blocks:
   - tailwind:
       section: pb-26
       wrap: flex max-w-desktop-full mx-auto relative items-end
-      imageWrap: 'pl-20 sm:hidden'
+      imageWrap: 'pl-20 pb-16 sm:hidden'
       image: ''
-      contentWrap: 'w-8/12 ml-auto pr-20 sm:w-full sm:px-8'
+      contentWrap: 'w-8/12 ml-auto pr-20 sm:w-full sm:px-8 pb-16'
       content: ''
       label: ''
       headline: ''
       subhead: 'font-1 font-bold text-primary text-base mb-8 sm:text-xl sm:font-normal'
-      text: bg-accent1 p-6 text-white text-xs font-3
+      text: bg-accent1 p-6 text-white text-xs font-3 mb-8
       buttons: 'text-accent2 font-bold text-base '
       button: ''
     image:
@@ -148,11 +148,11 @@ blocks:
         link: /architecture
     _template: tailwindFeature
   - style:
-      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
+      alignment: 'flex-row-reverse text-left items-start items-start-vertical '
       featureContent: 'w-3/4 min-h-0 '
-      padding: 'pt-0 pb-20 pr-10 pl-20 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
+      padding: 'pt-20 pb-20 pr-10 pl-20 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
       featureImage: 'object-center object-scale-down '
-      imagePadding: pt-0 pb-0 pr-0 pl-0
+      imagePadding: pt-20 pb-20 pr-0 pl-0
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-primary font-1 text-xl mb-5 '
       subheadStyles: 'text-primary font-1 text-lg mb-0 '
