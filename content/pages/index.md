@@ -162,6 +162,9 @@ blocks:
     subhead: ''
     body: ''
     buttons:
+      - label: Source Code
+        link: 'https://github.com/filecoin-project/bacalhau'
+        type: primary
       - label: Community
         link: /community
         type: primary
