@@ -89,11 +89,13 @@ blocks:
       wrap: 'max-w-desktop-full mx-auto relative '
       imageWrap: ' pl-20'
       image: ''
-      contentWrap: w-8/12 ml-auto  pr-20
+      contentWrap: 'w-8/12 ml-auto pr-20 sm:px-8 sm:w-full'
       content: ''
       label: ''
-      headline: absolute left-20 font-1 font-bold text-primary text-xl
-      subhead: font-1 font-bold text-primary text-base mb-8
+      headline: >-
+        absolute left-20 font-1 font-bold text-primary text-xl sm:relative
+        sm:left-0 sm:mb-20
+      subhead: 'font-1 font-bold text-primary text-base mb-8 sm:text-xl sm:font-normal'
       text: font-2 text-base
       buttons: ''
     background:
@@ -119,13 +121,13 @@ blocks:
   - tailwind:
       section: pb-16
       wrap: flex max-w-desktop-full mx-auto relative items-end
-      imageWrap: pl-20
+      imageWrap: 'pl-20 sm:hidden'
       image: ''
-      contentWrap: w-8/12 ml-auto pr-20
+      contentWrap: 'w-8/12 ml-auto pr-20 sm:w-full sm:px-8'
       content: ''
       label: ''
       headline: ''
-      subhead: font-1 font-bold text-primary text-base mb-8
+      subhead: 'font-1 font-bold text-primary text-base mb-8 sm:text-xl sm:font-normal'
       text: bg-accent1 p-6 text-white text-xs font-3
       buttons: ''
     image:
@@ -142,10 +144,10 @@ blocks:
       $ ipfs get \<RESULT\_CID>
     _template: tailwindFeature
   - style:
-      alignment: 'flex-row-reverse text-left items-start items-start-vertical '
+      alignment: 'flex-row text-left items-start items-start-vertical '
       featureContent: 'w-3/4 min-h-0 '
-      padding: pt-20 pb-20 pr-20 pl-20
-      featureImage: 'object-right object-scale-down '
+      padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
+      featureImage: 'object-center object-contain '
       imagePadding: pt-20 pb-0 pr-20 pl-0
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: text-primary font-1 text-2xl mb-5 font-bold
@@ -184,7 +186,7 @@ blocks:
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
       featureContent: 'w-3/4 min-h-0 '
-      padding: pt-0 pb-20 pr-10 pl-20
+      padding: 'pt-0 pb-20 pr-10 pl-20 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
       featureImage: 'object-center object-scale-down '
       imagePadding: pt-0 pb-0 pr-0 pl-0
       labelStyles: 'text-black font-1 text-sm mb-0 '

@@ -5,10 +5,10 @@ blocks:
       section: pt-16 pb-16
       wrap: >-
         max-w-desktop-full mx-auto relative flex flex-row-reverse items-start
-        items-vertical-end
-      imageWrap: w-1/2 pt-60 pb-16 px-20
+        items-vertical-end sm:flex-col-reverse
+      imageWrap: 'w-1/2 pt-60 pb-16 px-20 sm:p-10 sm:w-full'
       image: ml-auto
-      contentWrap: w-1/2 pt-40 pb-16 pl-20
+      contentWrap: 'w-1/2 pt-40 pb-16 pl-20 sm:p-10 sm:w-full sm:left-0'
       content: ''
       label: w-6 h-6 bg-accent1 text-accent1 mb-8
       headline: text-primary font-1 text-3xl mb-8 font-bold
@@ -32,10 +32,12 @@ blocks:
       wrap: 'max-w-desktop-full mx-auto relative '
       imageWrap: ' pl-20'
       image: ''
-      contentWrap: w-8/12 ml-auto  pr-20
+      contentWrap: 'w-8/12 ml-auto  pr-20 sm:w-full sm:p-10'
       content: ''
       label: ''
-      headline: absolute left-20 font-1 font-bold text-white text-2xl
+      headline: >-
+        absolute left-20 font-1 font-bold text-white text-2xl sm:relative
+        sm:left-0
       subhead: font-1 text-white text-xl mb-8
       text: font-3 text-xs text-white bg-accent1 p-8
       buttons: ''
