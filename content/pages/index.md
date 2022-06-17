@@ -160,8 +160,11 @@ blocks:
     label: ''
     headline: Dive In!
     subhead: ''
-    body: |
-      [Community](/community "Community")
+    body: ''
+    buttons:
+      - label: Community
+        link: /community
+        type: primary
     _template: feature
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
