@@ -62,7 +62,9 @@ export const Header = ({
       );
     }
     return (
-      <h1 className={`flex-none ${props.className} ${globalData.logo?.logoTypeStyle}`} style={logoStyles}>{globalData.logo?.logoType}</h1>
+      <a href="/">
+        <h1 className={`flex-none ${props.className} ${globalData.logo?.logoTypeStyle}`} style={logoStyles}>{globalData.logo?.logoType}</h1>
+      </a>
     );
   }
 
