@@ -22,9 +22,14 @@ blocks:
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-gray-light
+      ornaments:
+        - src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1655154094/bacalhau/shapes-4_t6tkoz.svg
+          alignment: top-right
+          xOffset: '-80'
+          yOffset: '80'
     image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1655154094/bacalhau/shapes-4_t6tkoz.svg
+      src: ''
     label: ''
     headline: Community
     subhead: Researchers
