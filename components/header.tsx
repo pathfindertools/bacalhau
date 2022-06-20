@@ -33,7 +33,7 @@ export const Header = ({
   const nav = globalData.nav
   const navItems = nav?.navItems || []
   const sectionClasses = navOpen ? "sm:h-screen" : "sm:h-10 overflow-hidden";
-  const navClasses = navOpen ? "sm:opacity-100 m-0" : "sm:opacity-0 sm:pointer-events-none";
+  const navClasses = navOpen ? "sm:opacity-100 sm:m-0" : "sm:opacity-0 sm:pointer-events-none";
   const backgroundClasses = navOpen ? "opacity-100" : "opacity-0";
   const navStyles = { 
     transition: "opacity .4s, margin .3s",
@@ -45,7 +45,7 @@ export const Header = ({
     lineHeight: "4rem",
     transition: "line-height .4s"
   } : {
-    lineHeight: "6rem",
+    lineHeight: "4rem",
     transition: "line-height .4s"
   }
   const logoStyles = { 
