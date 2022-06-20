@@ -2,18 +2,18 @@
 draft: true
 blocks:
   - tailwind:
-      section: pt-16 pb-16
+      section: 'pt-16 pb-16 sm:pt-40'
       wrap: >-
         max-w-desktop-full mx-auto relative flex flex-row-reverse items-start
         items-vertical-end sm:flex-col-reverse
       imageWrap: 'w-1/2 pt-60 pb-16 px-20 sm:p-10 sm:w-full'
       image: ml-auto
-      contentWrap: 'w-1/2 pt-40 pb-16 pl-20 sm:p-10 sm:w-full sm:left-0'
+      contentWrap: 'w-1/2 pt-40 pb-16 pl-20 sm:p-10 sm:w-full'
       content: ''
       label: w-6 h-6 bg-accent1 text-accent1 mb-8
-      headline: text-primary font-1 text-3xl mb-8 font-bold
+      headline: 'text-primary font-1 text-4xl mb-1 font-bold sm:text-2xl sm:mb-12'
       subhead: ''
-      text: text-black font-2 text-base mb-4
+      text: 'text-black font-2 text-base mb-4 sm:mb-8'
       buttons: text-accent2 text-base font-bold
       button: ''
     image:

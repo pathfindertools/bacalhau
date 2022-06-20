@@ -56,7 +56,7 @@ blocks:
   - style:
       alignment: 'flex-row text-left items-end items-start-vertical sm:flex-col-reverse'
       featureContent: 'w-2/3 min-h-0 '
-      padding: 'pt-0 pb-14 pr-20 pl-0 sm:pt-4 sm:pb-4 sm:pr-9 sm:pl-9'
+      padding: 'pt-0 pb-14 pr-20 pl-0 sm:pt-4 sm:pb-14 sm:pr-9 sm:pl-9'
       featureImage: 'object-left object-scale-down '
       imagePadding: 'pt-0 pb-20 pr-0 pl-20 sm:pt-0 sm:pb-0 sm:pr-0 sm:pl-0'
       labelStyles: 'text-black font-1 text-sm mb-0 '
@@ -68,9 +68,15 @@ blocks:
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-accent3
+      src: ''
+      ornaments:
+        - src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1655154093/bacalhau/shapes-2_v1e0y7.svg
+          alignment: bottom-left
+          xOffset: '80'
+          yOffset: '-80'
     image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1655154093/bacalhau/shapes-2_v1e0y7.svg
+      src: ''
     label: ''
     headline: ''
     subhead: >-
@@ -151,10 +157,10 @@ blocks:
     _template: tailwindFeature
   - style:
       alignment: 'flex-row-reverse text-left items-start items-start-vertical '
-      featureContent: 'w-3/4 min-h-0 '
-      padding: 'pt-20 pb-20 pr-10 pl-20 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
+      featureContent: 'w-full min-h-100 '
+      padding: 'pt-20 pb-20 pr-52 pl-20 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
       featureImage: 'object-center object-scale-down '
-      imagePadding: pt-20 pb-20 pr-0 pl-0
+      imagePadding: pt-0 pb-0 pr-0 pl-0
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-primary font-1 text-xl mb-5 '
       subheadStyles: 'text-primary font-1 text-lg mb-0 '
@@ -162,9 +168,14 @@ blocks:
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-gray-light
+      ornaments:
+        - src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1655154094/bacalhau/shapes-4_t6tkoz.svg
+          alignment: bottom-right
+          xOffset: '-80'
+          yOffset: '-80'
     image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1655154094/bacalhau/shapes-4_t6tkoz.svg
+      src: ''
     label: ''
     headline: Dive In!
     subhead: ''
