@@ -197,6 +197,7 @@ blocks:
 meta:
   pageTitle: Bacalhau
   pageDescription: Reinventing Science through reproducible data pipelines
-  siteImageSrc: ''
+  siteImageSrc: >-
+    https://res.cloudinary.com/protocolai/image/upload/v1657726476/bacalhau/bacalhua-social_hbrzct.png
 ---
 
