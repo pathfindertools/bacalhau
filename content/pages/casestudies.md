@@ -18,6 +18,9 @@ blocks:
     subhead: ''
     body: |
       Example scientific workloads running on Bacalhau.
+    buttons:
+      - label: Start Onboarding Your Workload Here >
+        link: 'https://docs.bacalhau.org/getting-started/workload-onboarding/'
     _template: tailwindFeature
   - tailwind:
       section: ''
