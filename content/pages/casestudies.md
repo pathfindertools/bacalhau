@@ -67,19 +67,18 @@ blocks:
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1659095481/bacalhau/bacalhau-openmm_bljzhl.png
-        headline: Problem Listed Here
-        subhead: 'Explanation:'
+        headline: OpenMM
+        subhead: ''
         text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu
-          odio enim vehicula sit ut. Ut cras libero nunc malesuada. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Nunc arcu odio enim
-          vehicula sit ut.
+          OpenMM is a toolkit for molecular simulation. It can be used either as
+          a stand-alone application for running simulations, or as a library you
+          call from your own code. It provides a combination of extreme
+          flexibility (through custom forces and integrators), openness, and
+          high performance (especially on recent GPUs) that make it truly unique
+          among simulation codes.
 
 
-          [Code](#)
-
-
-          [Dataset](#)
+          [Source (Github)](https://github.com/wesfloyd/openmm-test)
         buttonLabel: ''
     _template: tailwindCards
 meta:
