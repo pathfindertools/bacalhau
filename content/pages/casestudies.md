@@ -66,7 +66,7 @@ blocks:
         buttonLabel: ''
       - image:
           src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1659095485/bacalhau/bacalhau-socat_isdgud.png
+            https://res.cloudinary.com/protocolai/image/upload/v1659095481/bacalhau/bacalhau-openmm_bljzhl.png
         headline: Problem Listed Here
         subhead: 'Explanation:'
         text: >
