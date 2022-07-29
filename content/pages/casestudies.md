@@ -37,19 +37,24 @@ blocks:
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1655320824/bacalhau/dlagram_lxg5zk.jpg
-        headline: Problem Listed Here
-        subhead: 'Explanation:'
+        headline: EUREC4A Cloud Masking
+        subhead: ''
         text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu
-          odio enim vehicula sit ut. Ut cras libero nunc malesuada. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Nunc arcu odio enim
-          vehicula sit ut.
+          [EUREC4A](https://eurec4a.eu/), the Field Study, is an international
+          initiative in support of the World Climate Research Programme's Grand
+          Science Challenge on Clouds, Circulation and Climate Sensitivity.
+          EUREC4A will take place between 20 January and 20 February 2020 with
+          operations based out of Barbados.
 
 
-          [Code](#)
+          EUREC4A aims at advancing understanding of the interplay between
+          clouds, convection and circulation and their role in climate change:
+          How resilient or sensitive is the shallow cumulus cloud amount to
+          variations in the strength of convective mixing, surface turbulence
+          and large-scale circulations?
 
 
-          [Dataset](#)
+          [Source (Github)](https://github.com/wesfloyd/how\_to\_eurec4a)
         buttonLabel: ''
       - headline: Problem Listed Here
         subhead: 'Explanation:'
