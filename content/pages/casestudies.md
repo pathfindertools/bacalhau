@@ -18,8 +18,8 @@ blocks:
       card: >-
         p-20 odd:bg-gray-light text-base flex flex-row-reverse
         max-w-desktop-full mx-auto
-      cardImageWrap: ''
-      cardContentWrap: 'flex-1 pr-12 '
+      cardImageWrap: w-1/2
+      cardContentWrap: flex-1 pr-12
       cardContent: max-w-lg
       cardHeadline: text-primary text-xl font-bold font-1 mb-8
       cardSubhead: text-primary text-base font-2
