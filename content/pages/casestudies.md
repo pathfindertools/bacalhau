@@ -13,6 +13,24 @@ blocks:
       subhead: ''
       text: mb-6 text-base max-w-lg font-2
       buttons: text-accent2 font-bold text-base
+    label: '-'
+    headline: Case Studies
+    subhead: ''
+    body: |
+      Example scientific workloads running on Bacalhau.
+    _template: tailwindFeature
+  - tailwind:
+      section: ''
+      wrap: ''
+      imageWrap: ''
+      image: w-1/2
+      contentWrap: p-20 pt-60 max-w-desktop-full mx-auto
+      content: ''
+      label: w-6 h-6 bg-accent1 text-accent1 mb-8
+      headline: text-primary font-bold text-4xl font-1 mb-8
+      subhead: ''
+      text: mb-6 text-base max-w-lg font-2
+      buttons: text-accent2 font-bold text-base
       button: ''
       cardWrap: ''
       card: >-
