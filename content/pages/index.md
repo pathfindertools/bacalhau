@@ -137,7 +137,7 @@ blocks:
       headline: ''
       subhead: 'font-1 font-bold text-primary text-base mb-8 sm:text-xl sm:font-normal'
       text: bg-accent1 p-6 text-white text-xs font-3 mb-8
-      buttons: 'text-accent2 font-bold text-base '
+      buttons: text-accent2 font-bold text-base space-x-10
       button: ''
     image:
       src: >-
@@ -146,12 +146,14 @@ blocks:
     headline: ''
     subhead: Submitting Jobs is Easy
     body: |
-      $ bacalhau run ubuntu echo hello
+      $ bacalhau docker run ubuntu echo hello
 
-      $ bacalhau list --wide --sort-by=id --id-filter=\<JOB\_ID>&#x20;
+      $ bacalhau list
 
-      $ ipfs get \<RESULT\_CID>
+      $ bacalhau get CID
     buttons:
+      - label: Button Label
+        link: /
       - label: Learn More
         link: /architecture
     _template: tailwindFeature
