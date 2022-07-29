@@ -3,8 +3,8 @@ draft: true
 blocks:
   - tailwind:
       section: ''
-      wrap: w-1/2
-      imageWrap: ''
+      wrap: ''
+      imageWrap: w-1/2
       image: ''
       contentWrap: p-20 pt-60 max-w-desktop-full mx-auto
       content: ''
