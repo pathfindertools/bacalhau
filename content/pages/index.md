@@ -115,16 +115,14 @@ blocks:
       any data processing workload.
     body: >
       Bacalhau enables users to run arbitrary docker containers and wasm images
-      as tasks against data stored in IPFS. This architecture is referred to as
-      Compute Over Data (or COD). The Portuguese word for salted Cod fish is
-      "Bacalhau" which is the origin of the project's name.
+      against data stored in IPFS. Bacalhau is a peer-to-peer network of nodes
+      where each node participates in executing (computing) jobs submitted to
+      the cluster.
 
 
-      Bacalhau operates as a peer-to-peer network of nodes where each node
-      participates in executing (computing) jobs submitted to the cluster.
-      Bacalhau CLI requests are sent to nodes in the cluster, which then
-      broadcasts messages over the transport layer to other nodes in the
-      cluster.
+      This architecture is referred to as **Compute Over Data** (or COD). The
+      Portuguese word for salted Cod fish is **Bacalhau**, which is the origin
+      of the project's name.
     _template: tailwindFeature
   - tailwind:
       section: pb-26
