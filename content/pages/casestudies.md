@@ -28,7 +28,7 @@ blocks:
     headline: Case Studies
     subhead: ''
     body: |
-      Examples of workloads ported to run on Bacalhau.
+      Example scientific workloads running on Bacalhau.
     buttons:
       - label: Start Onboarding Your Workload Here >
         link: 'https://docs.bacalhau.org/getting-started/workload-onboarding/'
