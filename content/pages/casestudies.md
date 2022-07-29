@@ -76,10 +76,8 @@ blocks:
           flexibility (through custom forces and integrators), openness, and
           high performance (especially on recent GPUs) that make it truly unique
           among simulation codes.
-
-
-          [Source (Github)](https://github.com/wesfloyd/openmm-test)
-        buttonLabel: ''
+        link: 'https://github.com/wesfloyd/openmm-test'
+        buttonLabel: Source (Github)
     _template: tailwindCards
 meta:
   pageTitle: Bacalhau
