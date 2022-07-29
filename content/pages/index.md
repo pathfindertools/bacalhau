@@ -23,8 +23,8 @@ blocks:
     headline: Bacalhau Project
     subhead: Data. Transformed.
     body: >
-      Bacalhau transforms Big Data processing by giving developers simple, low
-      cost, “Distributed First” tools that unlock a new collaborative ecosystem.
+      Simple, low cost, “Distributed First” tools that unlock an open,
+      collaborative ecosystem.
     buttons:
       - label: Learn More
         link: /architecture
