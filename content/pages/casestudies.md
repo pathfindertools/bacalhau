@@ -4,8 +4,8 @@ blocks:
   - tailwind:
       section: ''
       wrap: ''
-      imageWrap: h-48 w-96 object-contain
-      image: ''
+      imageWrap: ''
+      image: w-300px
       contentWrap: p-20 pt-60 max-w-desktop-full mx-auto
       content: ''
       label: w-6 h-6 bg-accent1 text-accent1 mb-8
