@@ -27,12 +27,11 @@ blocks:
     label: x
     headline: Case Studies
     subhead: ''
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus facilisi
-      tempus, et condimentum nec. Bibendum nunc et bibendum lacus, pretium est.
+    body: |
+      Examples of workloads ported to run on Bacalhau.
     buttons:
-      - label: Call To Action Link >
-        link: /
+      - label: Start Onboarding Your Workload Here >
+        link: 'https://docs.bacalhau.org/getting-started/workload-onboarding/'
         type: primary
     items:
       - image:
