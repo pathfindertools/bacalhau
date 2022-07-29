@@ -56,19 +56,12 @@ blocks:
 
           [Source (Github)](https://github.com/wesfloyd/how\_to\_eurec4a)
         buttonLabel: ''
-      - headline: Problem Listed Here
-        subhead: 'Explanation:'
-        text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu
-          odio enim vehicula sit ut. Ut cras libero nunc malesuada. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Nunc arcu odio enim
-          vehicula sit ut.
-
-
-          [Code](#)
-
-
-          [Dataset](#)
+      - image:
+          src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1659095485/bacalhau/bacalhau-socat_isdgud.png
+        headline: Surface Ocean CO₂ Atlas (SOCAT)
+        subhead: ''
+        text: "The Surface Ocean CO₂ Atlas (SOCAT) contains measurements of the\_[fugacity](https://en.wikipedia.org/wiki/Fugacity)\_of CO2 in seawater around the globe. But in order to calculate how much carbon the ocean is taking up from the atmosphere, these measurements need to be converted to partial pressure of CO2.&#x20;\n\nWe convert the units by combining measurements of the surface temperature and fugacity. Python libraries (xarray, pandas, numpy) and the pyseaflux package facilitate this process.\n\n[Source (Github)](https://github.com/wesfloyd/bacalhau\\_socat\\_test)\n\n[Demo (Youtube)](https://www.youtube.com/watch?v=t2AHD8yJhLY)\n"
         buttonLabel: ''
       - headline: Problem Listed Here
         subhead: 'Explanation:'
