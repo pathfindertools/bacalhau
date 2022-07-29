@@ -47,11 +47,13 @@ blocks:
       fillStyles: bg-accent3
     label: ''
     headline: Why Bacalhau?
-    subhead: Bacalhau seeks to address deep rooted gaps in the research community
+    subhead: >-
+      Bacalhau seeks to address deep rooted gaps in the research community.
+      Existing data processing infrastructure are:
     body: |
       *   Expensive and slow, particularly with large datasets
       *   Complicated that require significant rewriting to use
-      *   Difficult to share and collaborate with other orginazations
+      *   Difficult to share and collaborate with other organizations
     _template: tailwindFeature
   - style:
       alignment: 'flex-row text-left items-end items-start-vertical sm:flex-col-reverse'
