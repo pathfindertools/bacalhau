@@ -52,10 +52,8 @@ blocks:
           How resilient or sensitive is the shallow cumulus cloud amount to
           variations in the strength of convective mixing, surface turbulence
           and large-scale circulations?
-
-
-          [Source (Github)](https://github.com/wesfloyd/how\_to\_eurec4a)
-        buttonLabel: ''
+        link: 'https://github.com/wesfloyd/how_to_eurec4a'
+        buttonLabel: Source (Github)
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1659095485/bacalhau/bacalhau-socat_isdgud.png
