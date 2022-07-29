@@ -36,7 +36,7 @@ blocks:
     items:
       - image:
           src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1655320824/bacalhau/dlagram_lxg5zk.jpg
+            https://res.cloudinary.com/protocolai/image/upload/v1659095159/bacalhau/bacalhau-eurec4a_kraedg.png
         headline: EUREC4A Cloud Masking
         subhead: ''
         text: >
