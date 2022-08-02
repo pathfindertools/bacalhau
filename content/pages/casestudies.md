@@ -24,6 +24,8 @@ blocks:
       cardHeadline: text-primary text-xl font-bold font-1 mb-8
       cardSubhead: text-primary text-base font-2
       cardText: text-black text-base font-2
+      cardButtons: mt-8
+      cardButton: block font-bold text-accent2 mb-2
     label: x
     headline: Case Studies
     subhead: ''
@@ -52,16 +54,20 @@ blocks:
           How resilient or sensitive is the shallow cumulus cloud amount to
           variations in the strength of convective mixing, surface turbulence
           and large-scale circulations?
-        link: 'https://github.com/wesfloyd/how_to_eurec4a'
-        buttonLabel: Source (Github)
+        buttons:
+          - label: Source (Github)
+            link: 'https://github.com/wesfloyd/how_to_eurec4a'
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1659095485/bacalhau/bacalhau-socat_isdgud.png
         headline: Surface Ocean CO₂ Atlas (SOCAT)
         subhead: ''
-        text: "The Surface Ocean CO₂ Atlas (SOCAT) contains measurements of the\_[fugacity](https://en.wikipedia.org/wiki/Fugacity)\_of CO2 in seawater around the globe. But in order to calculate how much carbon the ocean is taking up from the atmosphere, these measurements need to be converted to partial pressure of CO2.&#x20;\n\nWe convert the units by combining measurements of the surface temperature and fugacity. Python libraries (xarray, pandas, numpy) and the pyseaflux package facilitate this process.\n\n[Source (Github)](https://github.com/wesfloyd/bacalhau\\_socat\\_test)\n"
-        link: 'https://www.youtube.com/watch?v=t2AHD8yJhLY'
-        buttonLabel: Demo (Youtube)
+        text: "The Surface Ocean CO₂ Atlas (SOCAT) contains measurements of the\_[fugacity](https://en.wikipedia.org/wiki/Fugacity)\_of CO2 in seawater around the globe. But in order to calculate how much carbon the ocean is taking up from the atmosphere, these measurements need to be converted to partial pressure of CO2.&#x20;\n\nWe convert the units by combining measurements of the surface temperature and fugacity. Python libraries (xarray, pandas, numpy) and the pyseaflux package facilitate this process.\n"
+        buttons:
+          - label: Demo (Youtube)
+            link: 'https://www.youtube.com/watch?v=t2AHD8yJhLY'
+          - label: Source (Github)
+            link: /
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1659095481/bacalhau/bacalhau-openmm_bljzhl.png
@@ -74,8 +80,9 @@ blocks:
           flexibility (through custom forces and integrators), openness, and
           high performance (especially on recent GPUs) that make it truly unique
           among simulation codes.
-        link: 'https://github.com/wesfloyd/openmm-test'
-        buttonLabel: Source (Github)
+        buttons:
+          - label: Source (Github)
+            link: 'https://github.com/wesfloyd/openmm-test'
     _template: tailwindCards
 meta:
   pageTitle: Bacalhau

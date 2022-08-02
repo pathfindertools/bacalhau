@@ -563,14 +563,18 @@ type GlobalBlocksTailwindCardsItemsImage {
   alt: String
 }
 
+type GlobalBlocksTailwindCardsItemsButtons {
+  label: String
+  link: String
+}
+
 type GlobalBlocksTailwindCardsItems {
   image: GlobalBlocksTailwindCardsItemsImage
   label: String
   headline: String
   subhead: String
   text: JSON
-  link: String
-  buttonLabel: String
+  buttons: [GlobalBlocksTailwindCardsItemsButtons]
 }
 
 type GlobalBlocksTailwindCards {
@@ -1035,14 +1039,18 @@ type PagesBlocksTailwindCardsItemsImage {
   alt: String
 }
 
+type PagesBlocksTailwindCardsItemsButtons {
+  label: String
+  link: String
+}
+
 type PagesBlocksTailwindCardsItems {
   image: PagesBlocksTailwindCardsItemsImage
   label: String
   headline: String
   subhead: String
   text: JSON
-  link: String
-  buttonLabel: String
+  buttons: [PagesBlocksTailwindCardsItemsButtons]
 }
 
 type PagesBlocksTailwindCards {
@@ -1593,14 +1601,18 @@ input GlobalBlocksTailwindCardsItemsImageMutation {
   alt: String
 }
 
+input GlobalBlocksTailwindCardsItemsButtonsMutation {
+  label: String
+  link: String
+}
+
 input GlobalBlocksTailwindCardsItemsMutation {
   image: GlobalBlocksTailwindCardsItemsImageMutation
   label: String
   headline: String
   subhead: String
   text: JSON
-  link: String
-  buttonLabel: String
+  buttons: [GlobalBlocksTailwindCardsItemsButtonsMutation]
 }
 
 input GlobalBlocksTailwindCardsMutation {
@@ -2053,14 +2065,18 @@ input PagesBlocksTailwindCardsItemsImageMutation {
   alt: String
 }
 
+input PagesBlocksTailwindCardsItemsButtonsMutation {
+  label: String
+  link: String
+}
+
 input PagesBlocksTailwindCardsItemsMutation {
   image: PagesBlocksTailwindCardsItemsImageMutation
   label: String
   headline: String
   subhead: String
   text: JSON
-  link: String
-  buttonLabel: String
+  buttons: [PagesBlocksTailwindCardsItemsButtonsMutation]
 }
 
 input PagesBlocksTailwindCardsMutation {
